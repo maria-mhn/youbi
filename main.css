@@ -1,0 +1,51 @@
+/* Import a nice Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+/* Background */
+body {
+  margin: 0;
+  padding: 40px;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #001264, #630000);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Card container (optional but makes it cooler) */
+.container {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  padding: 40px;
+  border-radius: 80px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  max-width: 5000px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.container:hover {
+  transform: translateY(-8px);
+}
+
+/* h2 styling */
+h2 {
+  font-size: 32px;
+  color: white;
+  margin-bottom: 15px;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+  transition: letter-spacing 0.3s ease;
+}
+
+h2:hover {
+  letter-spacing: 2px;
+}
+
+/* paragraph styling */
+p {
+  font-size: 20px;
+  color: #f1f1f1;
+  line-height: 1.6;
+  opacity: 0.9;
+}
